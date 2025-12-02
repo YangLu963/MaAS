@@ -1,0 +1,15 @@
+# Full Example: https://github.com/geekan/MetaGPT/blob/main/config/config2.example.yaml
+# Reflected Code: https://github.com/geekan/MetaGPT/blob/main/metagpt/config2.py
+# Config Docs: https://docs.deepwisdom.ai/main/en/guide/get_started/configuration.html
+llm:
+  api_type: "openai"
+  model: "deepseek-reasoner"
+  base_url: "https://api.deepseek.com/v1"
+  api_key: "sk-f5c51e8cdd0645599a568725dfb2a91a"
+
+models:
+  deepseek-reasoner:
+    api_type: "openai"  
+    model: "deepseek-reasoner"
+    base_url: "https://api.deepseek.com/v1"
+    api_key: "sk-f5c51e8cdd0645599a568725dfb2a91a"
